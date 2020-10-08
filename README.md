@@ -4,11 +4,29 @@ This repository contains resources related to the manuscript describing the Meta
 ## Supplemental Data Tables
 All metadata tables of sample cohorts analyzed in the manuscript can be found in the `data_tables` directory. The following table summarizes, which table relates to which cohort.
 
-| **Description of the Dataset** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | **File** |
-| ------------------------------------------ | --- |
-| List of all samples included in the computation of the SRA-Fungi index. | `data_tables/fungi_all_cleanable_no_pacbio_no_nanopore_metadata_only_genomic.tsv.gz` | 
-| List of all samples included in the computation of the SRA-Plant index. | `data_tables/viridiplantae_all_cleanable_no_pacbio_no_nanopore_metadata_only_genomic.tsv.gz` | 
-|List of all samples included in the computation of the SRA-Metazoa index. | `data_tables/metazoa_all_cleanable_no_pacbio_no_nanopore_metadata_only_genomic.tsv.gz` | 
+<style type="text/css" rel="stylesheet">
+table {
+	width: 100%;
+	table-layout: fixed;
+}
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+th:nth-of-type(1),td:nth-of-type(1) {
+	width: 40%;
+}
+td, th {
+	overflow: scroll;
+}
+</style>
+
+| **Dataset Description** | **File** |
+| --- | --- |
+| Sample metadata for the SRA-Fungi index | `data_tables/fungi_all_cleanable_no_pacbio_no_nanopore_metadata_only_genomic.tsv.gz` | 
+| Sample metadata for the SRA-Plant index | `data_tables/viridiplantae_all_cleanable_no_pacbio_no_nanopore_metadata_only_genomic.tsv.gz` | 
+| Sample metadata for the SRA-Metazoa index | `data_tables/metazoa_all_cleanable_no_pacbio_no_nanopore_metadata_only_genomic.tsv.gz` | 
+
+
 
 ## Interactive Notebooks
 
