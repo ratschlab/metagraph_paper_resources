@@ -11,6 +11,10 @@ All metadata tables of sample cohorts analyzed in the manuscript can be found in
     <th>File</th>
   </tr>
   <tr>
+    <td>Sample metadata for the SRA-Microbe index</td>
+    <td style="overflow:scroll;">data_tables/microbe_from_bigsi_*.tsv*</td>
+  </tr>
+  <tr>
     <td>Sample metadata for the SRA-Fungi index</td>
     <td style="overflow:scroll;">data_tables/fungi_all_cleanable_no_pacbio_no_nanopore_metadata_only_genomic.tsv.gz</td>
   </tr>
