@@ -38,6 +38,10 @@ All metadata tables of sample cohorts analyzed in the manuscript can be found in
     <td>Sample metadata for the TCGA index</td>
     <td style="overflow:scroll;">data_tables/TableS8_TCGA.tsv.gz</td>
   </tr>
+  <tr>
+    <td>List of E. coli reference genomes used for accuracy experiment</td>
+    <td style="overflow:scroll;">data_tables/TableS9_EColi.txt</td>
+  </tr>
 </table>
 
 ## Interactive Notebooks
