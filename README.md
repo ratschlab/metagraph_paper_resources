@@ -12,7 +12,7 @@ All metadata tables of sample cohorts analyzed in the manuscript can be found in
   </tr>
   <tr>
     <td>Sample metadata for the SRA-Microbe index</td>
-    <td style="overflow:scroll;">data_tables/microbe_from_bigsi_*.tsv*</td>
+    <td style="overflow:scroll;">data_tables/TableS1_SRA_Microbe.tsv.gz</td>
   </tr>
   <tr>
     <td>Sample metadata for the SRA-Fungi index</td>
@@ -41,6 +41,14 @@ All metadata tables of sample cohorts analyzed in the manuscript can be found in
   <tr>
     <td>List of E. coli reference genomes used for accuracy experiment</td>
     <td style="overflow:scroll;">data_tables/TableS9_EColi.txt</td>
+  </tr>
+  <tr>
+    <td>Sample metadata for the SRA-Microbe index which was extracted from McCortex logs</td>
+    <td style="overflow:scroll;">data_tables/TableS10_SRA_Microbe_McCortex_logs.tsv.gz</td>
+  </tr>
+  <tr>
+    <td>List of SRA IDs in SRA-Microbe with no available metadata</td>
+    <td style="overflow:scroll;">data_tables/TableS11_SRA_Microbe_no_logs.tsv</td>
   </tr>
 </table>
 
