@@ -41,5 +41,9 @@ All metadata tables of sample cohorts analyzed in the manuscript can be found in
 </table>
 
 ## Interactive Notebooks
+This folder contains Ipython notebooks that can be used as examples to show how to interact with the graph indexes served on local or remote servers. Some of the result panels presented in the MetaGraph manuscript can be reproduced using these notebooks. 
 
 ## Experiment Scripts
+This folder contains the scripts used to run the experiments presented in the MetaGraph manuscript.
+
+**Disclaimer:** This repository is currently still under construction and more content will be added within the next days. Some of the sections are still incomplete.
