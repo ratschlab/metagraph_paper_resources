@@ -50,10 +50,14 @@ All metadata tables of sample cohorts analyzed in the manuscript can be found in
     <td>List of SRA IDs in SRA-Microbe with no available metadata</td>
     <td style="overflow:scroll;">data_tables/TableS11_SRA_Microbe_no_logs.tsv</td>
   </tr>
+  <tr>
+    <td>List of lengths and classifications of differential sequences assembled from the kidney transplant cohorts</td>
+    <td style="overflow:scroll;">data_tables/TableS12_Differential_Sequence_stats.tsv</td>
+  </tr>
 </table>
 
 ## Interactive Notebooks
-This folder contains Ipython notebooks that can be used as examples to show how to interact with the graph indexes served on local or remote servers. Some of the result panels presented in the MetaGraph manuscript can be reproduced using these notebooks. 
+This folder contains Ipython notebooks that can be used as examples to show how to interact with the graph indexes served on local or remote servers. Some of the result panels presented in the MetaGraph manuscript can be reproduced using these notebooks.
 
 ## Experiment Scripts
 This folder contains the scripts used to run the experiments presented in the MetaGraph manuscript.
