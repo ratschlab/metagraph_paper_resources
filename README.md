@@ -1,6 +1,8 @@
 # MetaGraph resources
 This repository contains resources related to the [manuscript](https://www.biorxiv.org/content/10.1101/2020.10.01.322164v1) describing the MetaGraph framework, such as supplemental data tables containing sample metadata, example scripts and interactive notebooks. Please find below a more detailed description of each category under the respective section.
 
+**Disclaimer:** This repository is currently still under construction and more content will be added within the next days. Some of the sections are still incomplete.
+
 ## Supplemental Data Tables
 All metadata tables of sample cohorts analyzed in the manuscript can be found in the `data_tables` directory. Please note that the data items in this repository utilize the [git-lfs](https://git-lfs.github.com/) framework. You need to install `git-lfs` on your system to be able to download and access the data. The following table summarizes, which table relates to which cohort.
 
@@ -62,4 +64,3 @@ This folder contains Ipython notebooks that can be used as examples to show how 
 ## Experiment Scripts
 This folder contains the scripts used to run the experiments presented in the MetaGraph manuscript.
 
-**Disclaimer:** This repository is currently still under construction and more content will be added within the next days. Some of the sections are still incomplete.
