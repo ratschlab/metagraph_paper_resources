@@ -52,10 +52,6 @@ All metadata tables of sample cohorts analyzed in the manuscript can be found in
     <td>List of SRA IDs in SRA-Microbe with no available metadata</td>
     <td style="overflow:scroll;">data_tables/TableS11_SRA_Microbe_no_logs.tsv</td>
   </tr>
-  <tr>
-    <td>List of lengths and classifications of differential sequences assembled from the kidney transplant cohorts</td>
-    <td style="overflow:scroll;">data_tables/TableS12_Differential_Sequence_stats.tsv</td>
-  </tr>
 </table>
 
 ## Interactive Notebooks
