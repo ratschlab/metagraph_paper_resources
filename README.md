@@ -52,6 +52,10 @@ All metadata tables of sample cohorts analyzed in the manuscript can be found in
     <td>List of SRA IDs in SRA-Microbe with no available metadata</td>
     <td style="overflow:scroll;">data_tables/TableS11_SRA_Microbe_no_logs.tsv</td>
   </tr>
+  <tr>
+    <td>Hosting cost calculations for MetaGraph indexes</td>
+    <td style="overflow:scroll;">data_tables/TableS15_Hosting_Costs.xlsx</td>
+  </tr>
 </table>
 
 ## Interactive Notebooks
