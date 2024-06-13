@@ -29,7 +29,11 @@ All metadata tables of sample cohorts analyzed in the manuscript can be found in
     <td style="overflow:scroll;">data_tables/TableS4_SRA_Metazoa.tsv.gz</td>
   </tr>
   <tr>
-    <td>Sample metadata for the SRA-Metazoa index</td>
+    <td>Sample metadata for the SRA-MetaGut index</td>
+    <td style="overflow:scroll;">data_tables/TableS5_SRA_MetaGut.tsv.gz</td>
+  </tr>
+  <tr>
+    <td>Sample metadata for the MetaSUB index</td>
     <td style="overflow:scroll;">data_tables/TableS6_MetaSUB.csv.gz</td>
   </tr>
   <tr>
