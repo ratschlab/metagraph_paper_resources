@@ -1,0 +1,2 @@
+# Metadata Queries
+All queries were carried out using the Google Cloud Platform BigQuery service. The queries will not fully reproduce the sample IDs that have been used as inputs for the MetaGraph experiments, as the metadata tables of SRA are constantly updated, correcting possible errors or redacting erroneously published data. However, the query code will make clear which records we intended to include in the individual batches.

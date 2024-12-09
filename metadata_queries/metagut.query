@@ -1,0 +1,5 @@
+SELECT acc, assay_type, center_name, consent, experiment, instrument, librarylayout, libraryselection, librarysource, platform, sample_acc, biosample, organism, sra_study, releasedate, bioproject, mbytes, avgspotlen, mbases, insertsize,  geo_loc_name_country_calc, geo_loc_name_country_continent_calc
+FROM   `nih-sra-datastore.sra.metadata` m 
+WHERE  m.consent = 'public' 
+AND    m.organism = "human gut metagenome"
+AND    m.librarysource = 'METAGENOMIC'

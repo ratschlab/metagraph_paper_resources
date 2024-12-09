@@ -1,0 +1,15 @@
+WITH viridiplantae AS 
+( 
+       SELECT * FROM   `nih-sra-datastore.sra_tax_analysis_tool.taxonomy` 
+       WHERE  tax_id = 33090 
+), 
+plantae_orgs AS 
+( 
+       SELECT c.sci_name  FROM   `nih-sra-datastore.sra_tax_analysis_tool.taxonomy` c 
+       JOIN   viridiplantae hs 
+       ON hs.ileft<=c.ileft AND c.iright<hs.iright AND    hs.ilevel<c.ilevel 
+) 
+SELECT acc, assay_type, center_name, consent, experiment, sample_name, instrument, librarylayout, libraryselection, librarysource, platform, sample_acc, biosample, organism, sra_study, releasedate, bioproject, mbytes, loaddate, avgspotlen, mbases, insertsize, library_name, biosamplemodel_sam, collection_date_sam, geo_loc_name_country_calc, geo_loc_name_country_continent_calc, geo_loc_name_sam, ena_first_public_run, ena_last_update_run, sample_name_sam, datastore_filetype, datastore_provider, datastore_region, attributes, jattr
+FROM   `nih-sra-datastore.sra.metadata` m 
+WHERE  m.consent = 'public' 
+AND    m.organism IN  ( SELECT * FROM plantae_orgs)
