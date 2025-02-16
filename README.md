@@ -61,7 +61,7 @@ All metadata tables of sample cohorts analyzed in the manuscript can be found in
     <td style="overflow:scroll;">data_tables/TableS12_SRA_Public_100studies.tsv.gz</td>
   </tr>
   <tr>
-    <td>Hosting cost calculations for MetaGraph indexes</td>
+    <td>Hosting and query cost calculations for MetaGraph indexes</td>
     <td style="overflow:scroll;">data_tables/TableS15_Hosting_Costs.xlsx</td>
   </tr>
 </table>
