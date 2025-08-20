@@ -3,6 +3,10 @@ This repository contains resources related to the [manuscript](https://www.biorx
 
 **Disclaimer:** This repository is currently still under construction and more content will be added within the next days. Some of the sections are still incomplete.
 
+## MetaGraph Indexes
+
+Indexes of public sequence data are available at S3 Bucket [s3://metagraph](https://metagraph.s3.amazonaws.com/index.html). Further details and  instructions for accessing the data can be found at [https://github.com/ratschlab/metagraph-open-data](https://github.com/ratschlab/metagraph-open-data).
+
 ## Supplemental Data Tables
 All metadata tables of sample cohorts analyzed in the manuscript can be found in the `data_tables` directory. Please note that the data items in this repository utilize the [git-lfs](https://git-lfs.github.com/) framework. You need to install `git-lfs` on your system to be able to download and access the data. The following table summarizes, which table relates to which cohort.
 
