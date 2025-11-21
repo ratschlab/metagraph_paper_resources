@@ -4,8 +4,14 @@ KMPATH=~/kmindex_env/bin
 KMINDEX=$KMPATH/kmindex
 NSAMPLES=$1
 NTHREADS=32
+
+# final K used for query
 K=31
+
+# z to use for the findere algorithm when querying. Bloom filters are constructed for K-Z since the findere algorithm will be used
 Z=3
+
+# The FPR of the base Bloom filter (which will become lower after using the findere algorithm during query)
 TARGET_FPR=0.05
 
 paste updated_files_24750.txt.fof.txt num_kmers.txt | head -n $NSAMPLES | awk '{om=int(log($4)/log(10)); print $1" contigs"$2>"p"om"_'$NSAMPLES'.fof.txt"; print $4>"p"om"_'$NSAMPLES'.num_kmers.txt"}'
